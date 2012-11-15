@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+<html xmlns='http://www.w3.org/1999/xhtml'>
+
+<!--
+
+Copyright: Darren Hester, http://www.designsbydarren.com
+
+License: Creative Commons Attribution-Noncommercial 3.0 License. 
+Essentially this means you may use our free templates for any 
+personal or non-profit web design project as long as you give me 
+credit . I require a link back to http://www.designsbydarren.com/ 
+in the footer of all sites using this template. For more info on
+Creative Commons, please visit http://www.creativecommons.org
+
+-->
+
+<head>
+
+  <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+  <title>@ViewBag.Title</title>
+  @Styles.Render("~/Themes/Mother_Earth/css/style.css")
+
+</head>
+
+
+<body>
+
+<div id='page_wrapper'>
+  <div id="top_section">
+      <ul id='navlist'>
+      <li>@Html.ActionLink("Login", "show", "login", new { area = "Login" }, new { })</a></li>
+      </ul>
+  </div>
+
+  <div id='page_header'>
+    <h1>Jørn Wildt</h1>
+    <h2>Dealing with life, the web and everything</h2>
+  </div>
+  
+  <div id='menu_bar'>
+    <div id='navcontainer'>
+      <ul id='navlist'>
+      <li><a href='#'>Item one</a></li>
+      <li><a href='#'>Item two</a></li>
+      <li><a href='#'>Item three</a></li>
+      <li><a href='#'>Item four</a></li>
+      <li><a href='#'>Item five</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div id='content_wrapper'>
+
+    <div id='left_side'>
+      
+      <h3>Recommended</h3>
+      
+      <div id='linkcontainer'>
+        <ul id='linklist'>
+        <li><a href='#'>Item one</a></li>
+        <li><a href='#'>Item two</a></li>
+        <li><a href='#'>Item three</a></li>
+        <li><a href='#'>Item four</a></li>
+        <li><a href='#'>Item five</a></li>
+        <li><a href='#'>Item six</a></li>
+        <li><a href='#'>Item seven</a></li>
+        <li><a href='#'>Item eight</a></li>
+        <li><a href='#'>Item nine</a></li>
+        <li><a href='#'>Item ten</a></li>                              
+        </ul>
+      </div>
+      
+      <h3>Left Side</h3>
+      
+      <p>
+      <a href='#'>Lorem ipsum</a> his ut explicari vituperata adversarium, 
+      semper commune mediocrem eos ex. Vim solet consul vocibus ei. Facer 
+      fuisset officiis vel ex, at vix <a href='#'>partem tractatos</a>, habeo 
+      <a href='#'>maluisset</a> id mei. Ad duo sale munere facete. Ex vidit 
+      brute feugiat qui, mei ullum zzril aliquam id, est ei tollit <a href='#'>
+      munere persecuti</a>. Ius cu gloriatur constituto neglegentur, quem 
+      scripta vulputate ne quo, qui in quem accumsan. Ad nominati sententiae 
+      usu, <a href='#'>sit te commodo minimum</a>.
+      </p>      
+     
+    </div>
+
+    <div id='center'>
+      @RenderBody()
+    </div>
+
+  </div>
+
+  <div id='page_footer'>
+    <p>
+    Template by Darren Hester, <a href="http://www.designsbydarren.com">DesignsByDarren.com</a><br/>
+    <a href='http://validator.w3.org/check?uri=referer' target='new'>Valid XHTML 1.0 Transitional</a>
+    </p>
+  </div>
+
+</div>
+
+@RenderSection("scripts", required: false)
+</body>
+</html>
