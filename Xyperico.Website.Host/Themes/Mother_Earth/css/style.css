@@ -271,3 +271,9 @@ A:hover {
   margin-bottom:5px;
   border:0px;
 }
+
+
+#account-box
+{
+  float: right;
+}
