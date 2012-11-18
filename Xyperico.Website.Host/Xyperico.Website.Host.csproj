@@ -166,6 +166,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\formalizeme\assets\formalize.css" />
+    <Content Include="Content\formalizeme\images\button.png" />
+    <Content Include="Content\formalizeme\images\select_arrow.gif" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -222,6 +225,18 @@
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Scripts\formalizeme\dojo.formalize.js" />
+    <Content Include="Scripts\formalizeme\dojo.formalize.min.js" />
+    <Content Include="Scripts\formalizeme\extjs.formalize.js" />
+    <Content Include="Scripts\formalizeme\extjs.formalize.min.js" />
+    <Content Include="Scripts\formalizeme\jquery.formalize.js" />
+    <Content Include="Scripts\formalizeme\jquery.formalize.min.js" />
+    <Content Include="Scripts\formalizeme\mootools.formalize.js" />
+    <Content Include="Scripts\formalizeme\mootools.formalize.min.js" />
+    <Content Include="Scripts\formalizeme\prototype.formalize.js" />
+    <Content Include="Scripts\formalizeme\prototype.formalize.min.js" />
+    <Content Include="Scripts\formalizeme\yui.formalize.js" />
+    <Content Include="Scripts\formalizeme\yui.formalize.min.js" />
     <Content Include="Scripts\jquery-1.7.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
