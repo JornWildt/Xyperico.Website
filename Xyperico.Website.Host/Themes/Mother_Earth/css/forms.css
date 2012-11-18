@@ -39,3 +39,15 @@ ol.form.buttons li
 {
   display: inline;
 }
+
+div.validation-summary-errors
+{
+  border: 1px solid red;
+  color: Red;
+  margin: 0 0 10px 0;
+}
+
+.form span.field-validation-error
+{
+  color: Red;
+}
