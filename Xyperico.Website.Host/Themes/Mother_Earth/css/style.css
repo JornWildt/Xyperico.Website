@@ -27,6 +27,10 @@ A:hover {
   background: #FFFFFF url('../img/content_bg.gif') top left repeat-y;
 }
 
+#page_wrapper.blank {
+  background: #FFFFFF;
+}
+
 #top_section {
   background: #D5D0B0;
 }

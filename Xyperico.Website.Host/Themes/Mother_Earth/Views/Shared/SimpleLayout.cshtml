@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+<html xmlns='http://www.w3.org/1999/xhtml'>
+
+<!--
+
+Copyright: Darren Hester, http://www.designsbydarren.com
+
+License: Creative Commons Attribution-Noncommercial 3.0 License. 
+Essentially this means you may use our free templates for any 
+personal or non-profit web design project as long as you give me 
+credit . I require a link back to http://www.designsbydarren.com/ 
+in the footer of all sites using this template. For more info on
+Creative Commons, please visit http://www.creativecommons.org
+
+-->
+
+<head>
+
+  <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+  <title>@ViewBag.Title</title>
+  @Styles.Render("~/Themes/Mother_Earth/css/style.css")
+  @Styles.Render("~/Themes/Mother_Earth/css/forms.css")
+  @Styles.Render("~/Content/formalizeme/assets/formalize.css")
+  @Scripts.Render("~/bundles/jquery")
+  @RenderSection("styles", required: false)
+</head>
+
+
+<body>
+
+<div id='page_wrapper' class="blank">
+  <div id="top_section">
+      <ul id='navlist'>
+      <li>@Html.Action("AccountBox", "Info", new { area = "Account" })</li>
+      </ul>
+  </div>
+
+  <div id='page_header'>
+    <h1>Jørn Wildt</h1>
+    <h2>Dealing with life, the web and everything</h2>
+  </div>
+  
+  <div id='menu_bar'>
+    <div id='navcontainer'>
+      <ul id='navlist'>
+      <li><a href='#'>Item one</a></li>
+      <li><a href='#'>Item two</a></li>
+      <li><a href='#'>Item three</a></li>
+      <li><a href='#'>Item four</a></li>
+      <li><a href='#'>Item five</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div id='content_wrapper'>
+
+    <div id='center'>
+      @RenderBody()
+    </div>
+
+  </div>
+
+</div>
+
+@RenderSection("scripts", required: false)
+</body>
+</html>
