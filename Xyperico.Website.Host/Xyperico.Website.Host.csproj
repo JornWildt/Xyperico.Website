@@ -286,6 +286,10 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Xyperico\Source\Xyperico.Base\Xyperico.Base.MongoDB\Xyperico.Base.MongoDB\Xyperico.Base.MongoDB.csproj">
+      <Project>{DF1A3B54-FD53-414F-8C54-0D9F6EDEB2C9}</Project>
+      <Name>Xyperico.Base.MongoDB</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Xyperico.Website.Core\Xyperico.Website.Core.csproj">
       <Project>{D81F8AD2-48CB-4499-9456-990CC7937C2A}</Project>
       <Name>Xyperico.Website.Core</Name>

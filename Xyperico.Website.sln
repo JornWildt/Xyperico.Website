@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xyperico.Website.Core", "Xy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xyperico.Website.Host", "Xyperico.Website.Host\Xyperico.Website.Host.csproj", "{EBDDE77C-5AE4-4EC9-BF58-6220AE62FF83}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xyperico.Base.MongoDB", "..\Xyperico\Source\Xyperico.Base\Xyperico.Base.MongoDB\Xyperico.Base.MongoDB\Xyperico.Base.MongoDB.csproj", "{DF1A3B54-FD53-414F-8C54-0D9F6EDEB2C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{EBDDE77C-5AE4-4EC9-BF58-6220AE62FF83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBDDE77C-5AE4-4EC9-BF58-6220AE62FF83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBDDE77C-5AE4-4EC9-BF58-6220AE62FF83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF1A3B54-FD53-414F-8C54-0D9F6EDEB2C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF1A3B54-FD53-414F-8C54-0D9F6EDEB2C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF1A3B54-FD53-414F-8C54-0D9F6EDEB2C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF1A3B54-FD53-414F-8C54-0D9F6EDEB2C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -40,5 +46,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{054A30BA-B232-4FF1-9F23-1040D075764A} = {F6DAD50D-B869-4063-8539-3BB307D535FC}
 		{5BAC1705-410B-4B27-AA97-03C1EF567E1A} = {F6DAD50D-B869-4063-8539-3BB307D535FC}
+		{DF1A3B54-FD53-414F-8C54-0D9F6EDEB2C9} = {F6DAD50D-B869-4063-8539-3BB307D535FC}
 	EndGlobalSection
 EndGlobal
