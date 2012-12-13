@@ -161,11 +161,20 @@
       <Private>True</Private>
       <HintPath>..\packages\WebGrease.1.1.0\lib\Antlr3.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="Xyperico.Base, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\Xyperico.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Xyperico.Web.Mvc, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libraries\Xyperico.Web.Mvc.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Configuration\invalid-user-names.txt" />
     <Content Include="Content\formalizeme\assets\formalize.css" />
     <Content Include="Content\formalizeme\images\button.png" />
     <Content Include="Content\formalizeme\images\select_arrow.gif" />
@@ -252,6 +261,7 @@
     <Content Include="Scripts\knockout-2.1.0.debug.js" />
     <Content Include="Scripts\knockout-2.1.0.js" />
     <Content Include="Scripts\modernizr-2.5.3.js" />
+    <Content Include="Scripts\xyperico-1.0.0.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -286,10 +296,6 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Xyperico\Source\Xyperico.Base\Xyperico.Base.MongoDB\Xyperico.Base.MongoDB\Xyperico.Base.MongoDB.csproj">
-      <Project>{DF1A3B54-FD53-414F-8C54-0D9F6EDEB2C9}</Project>
-      <Name>Xyperico.Base.MongoDB</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Xyperico.Website.Core\Xyperico.Website.Core.csproj">
       <Project>{D81F8AD2-48CB-4499-9456-990CC7937C2A}</Project>
       <Name>Xyperico.Website.Core</Name>

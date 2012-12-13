@@ -17,6 +17,11 @@ ol.form.inputs li
   padding: 0;
 }
 
+ol.form.inputs li *
+{
+  vertical-align: middle;
+}
+
 ol.form.buttons
 {
   list-style-type: none; 
@@ -50,4 +55,10 @@ div.validation-summary-errors
 .form span.field-validation-error
 {
   color: Red;
+}
+
+
+.form .input-validation-error
+{
+  background-color: #F7B7AD;
 }

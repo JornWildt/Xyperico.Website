@@ -22,6 +22,7 @@ A:hover {
 #page_wrapper {
   margin-left: auto; 
   margin-right: auto;
+  padding-bottom: 20px;
   width: 760px;
   text-align: left;
   background: #FFFFFF url('../img/content_bg.gif') top left repeat-y;
@@ -84,7 +85,7 @@ A:hover {
 }
 
 #center h3 {
-  margin-top:0px;
+  margin-top:10px;
   margin-bottom:5px;
   font-family: verdana, arial, sans-serif;
   font-size: 11px;
