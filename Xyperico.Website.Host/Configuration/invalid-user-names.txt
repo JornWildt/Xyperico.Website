@@ -1,0 +1,5 @@
+﻿# This is a comment line - it begins with '#'
+# This file contains a list of invalid user names - user names that users may not register with.
+# Place one invalid user name on each line. Blank lines are ignored.
+admin
+administrator
