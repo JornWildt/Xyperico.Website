@@ -178,6 +178,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Libraries\Xyperico.Base.dll</HintPath>
     </Reference>
+    <Reference Include="Xyperico.Base.MongoDB">
+      <HintPath>..\Libraries\Xyperico.Base.MongoDB.dll</HintPath>
+    </Reference>
     <Reference Include="Xyperico.Web.Mvc, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Libraries\Xyperico.Web.Mvc.dll</HintPath>
