@@ -73,14 +73,6 @@
     <Reference Include="WebGrease">
       <HintPath>..\packages\WebGrease.1.1.0\lib\WebGrease.dll</HintPath>
     </Reference>
-    <Reference Include="Xyperico.Base, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libraries\Xyperico.Base.dll</HintPath>
-    </Reference>
-    <Reference Include="Xyperico.Web.Mvc, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Libraries\Xyperico.Web.Mvc.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
@@ -95,6 +87,12 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Xyperico\Xyperico.Web\Xyperico.Web.Mvc\Xyperico.Web.Mvc.csproj">
+      <Project>{5BAC1705-410B-4B27-AA97-03C1EF567E1A}</Project>
+      <Name>Xyperico.Web.Mvc</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\nuget.targets" />
