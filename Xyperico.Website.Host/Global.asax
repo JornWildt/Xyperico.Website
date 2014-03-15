@@ -1,1 +1,1 @@
-﻿<%@ Application Inherits="Xyperico.Website.Core.Global" Language="C#" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="Xyperico.Website.Core.Global" Language="C#" %>
