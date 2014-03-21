@@ -5,6 +5,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xyperico.Website.Host", "Xy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xyperico.Website.Core", "Xyperico.Website.Core\Xyperico.Website.Core.csproj", "{7AD4F75E-1EE2-4D85-854D-3B4A03936838}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{D4B67A86-ADBB-4CAE-B8FC-D70B456C8BEC}"
+	ProjectSection(SolutionItems) = preProject
+		copy-libraries.bat = copy-libraries.bat
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
